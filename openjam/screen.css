@@ -116,6 +116,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    color: #347788;
 }
 
 #why h1 + p {
@@ -123,7 +124,7 @@ body {
 }
 
 #where {
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 200px;
     background-image: url('img/map.gif');
     background-position: center;
@@ -144,4 +145,106 @@ body {
     margin-right: auto;
     text-align: right;
     font-weight: bold;
+}
+
+#when {
+    background-image: url('img/wires.png');
+    background-color: #439998;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    background-repeat: repeat-x;
+    background-position: center
+    
+}
+
+#when h1 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#when h2  {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: none;
+    border-bottom: 2px dashed;
+    padding-bottom: 30px;
+}
+
+#when h3 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#when h3 + ul {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-bottom: 2px dashed;
+    padding-bottom: 30px;
+    padding: inherit;
+}
+
+#who {
+    background-color: #f5f5f5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+#who h1 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #347788;
+    
+}
+
+#who p {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #347788;
+    text-align: center
+}
+
+#footer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url(img/texture.jpg);
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+#footer h1 {
+    width: 50px;
+    transform-origin: center;
+    margin-bottom: -78px;
+    margin-left: 700px;
+    margin-right: auto;
+}
+
+#footer h2 {
+    width: 50px;
+    transform-origin: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer h3 {
+    width: 50px;
+    transform-origin: right;
+    margin-top: -78px;
+    margin-left: 830px;
 }
