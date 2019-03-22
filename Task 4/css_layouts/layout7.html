@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>layout 3</title>
+        <style>
+            * {
+                outline: 1px solid black;
+            }
+            
+            body {
+                margin: 0;
+            }
+            
+            #container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                margin:auto;
+                max-width: 800px;
+            }
+            
+            #blue1 {
+                background-color: blue;
+                height: 100px;
+                width: 800px;
+                
+            }
+            
+            .yellow1 {
+                background-color: yellow;
+                width: 250px;
+                height: 40px;
+                margin-left: -770px;
+                margin-top: 30px;
+            }
+            
+            .yellow2 {
+                background-color: yellow;
+                width: 460px;
+                height: 40px;
+                margin-left: -490px;
+                margin-top: 30px;
+            }
+            
+            #green {
+                background-color: lime;
+                height: 500px;
+                width: 800px;
+                grid-column: 1/4;
+            }
+            
+            #red {
+                background-color: red;
+                height: 380px;
+                width: 800px;
+                grid-column: 1/4;
+            }
+            
+            .yellow3 {
+                margin-top: 30px;
+                background-color: yellow;
+                width: 720px;
+                height: 110px;
+                margin-left: 40px;
+            }
+            
+            .yellow4 {
+                margin-top: 30px;
+                background-color: yellow;
+                width: 220px;
+                height: 180px;
+                margin-left: 40px;
+            }
+            
+            .yellow5 {
+                margin-top: -180px;
+                background-color: yellow;
+                width: 220px;
+                height: 180px;
+                margin-left: 290px;
+            }
+            
+            .yellow6 {
+                margin-top: -180px;
+                background-color: yellow;
+                width: 220px;
+                height: 180px;
+                margin-left: 540px;
+            }
+            
+            #blue2 {
+                background-color: blue;
+                height: 700px;
+                width: 800px;
+            }
+            
+            .yellow8 {
+                background-color: yellow;
+                width: 720px;
+                height: 80px;
+                margin-top: 40px;
+                margin-left: 40px
+            }
+            
+            .yellow9 {
+                background-color: yellow;
+                width: 160px;
+                height: 150px;
+                margin-left: 40px;
+                margin-top: 30px;
+            }
+            
+            .yellow10 {
+                background-color: yellow;
+                width: 160px;
+                height: 150px;
+                margin-left: 225px;
+                margin-top: -150px;
+            }
+            
+            .yellow11 {
+                background-color: yellow;
+                width: 160px;
+                height: 150px;
+                margin-left: 410px;
+                margin-top: -150px;
+            }
+            
+            .yellow12 {
+                background-color: yellow;
+                width: 160px;
+                height: 150px;
+                margin-left: 600px;
+                margin-top: -150px;
+            }
+            
+            .yellow13 {
+                background-color: yellow;
+                width: 160px;
+                height: 150px;
+                margin-left: 40px;
+                margin-top: 30px;
+            }
+            
+            .yellow14 {
+                background-color: yellow;
+                width: 160px;
+                height: 150px;
+                margin-left: 225px;
+                margin-top: -150px;
+            }
+            
+            .yellow15 {
+                background-color: yellow;
+                width: 160px;
+                height: 150px;
+                margin-left: 410px;
+                margin-top: -150px;
+            }
+            
+            .yellow16 {
+                background-color: yellow;
+                width: 160px;
+                height: 150px;
+                margin-left: 600px;
+                margin-top: -150px;
+            }
+            
+            .yellow17 {
+                background-color: yellow;
+                width: 160px;
+                height: 150px;
+                margin-left: 40px;
+                margin-top: 30px;
+            }
+            
+            .yellow18 {
+                background-color: yellow;
+                width: 160px;
+                height: 150px;
+                margin-left: 225px;
+                margin-top: -150px;
+            }
+            
+            .yellow19 {
+                background-color: yellow;
+                width: 160px;
+                height: 150px;
+                margin-left: 410px;
+                margin-top: -150px;
+            }
+            
+            .yellow20 {
+                background-color: yellow;
+                width: 160px;
+                height: 150px;
+                margin-left: 600px;
+                margin-top: -150px;
+            }
+            
+            #green2{
+                background-color: lime;
+                height: 580px;
+                width: 800px;
+                grid-column: 1/4;
+            }
+            
+            .yellow21 {
+                background-color: yellow;
+                width: 720px;
+                height: 110px;
+                margin-left: 40px;
+                margin-top: 40px;
+            }
+            
+            .yellow22 {
+                background-color: yellow;
+                width: 220px;
+                height: 360px;
+                margin-left: 40px;
+                margin-top: 30px;
+            }
+            
+            .yellow23 {
+                background-color: yellow;
+                width: 220px;
+                height: 360px;
+                margin-left: 290px;
+                margin-top: -360px;
+            }
+            
+            .yellow24 {
+                background-color: yellow;
+                width: 220px;
+                height: 360px;
+                margin-left: 540px;
+                margin-top: -360px;
+            }
+            
+            #red2 {
+                background-color: red;
+                height: 500px;
+                width: 800px;
+                grid-column: 1/4;
+            }
+            
+            .yellow25 {
+                background-color: yellow;
+                width: 720px;
+                height: 70px;
+                margin-left: 40px;
+                margin-top: 30px;
+            }
+            
+            .yellow26 {
+                background-color: yellow;
+                width: 470px;
+                height: 340px;
+                margin-left: 40px;
+                margin-top: 30px;
+            }
+            
+            .yellow27 {
+                background-color: yellow;
+                width: 210px;
+                height: 200px;
+                margin-left: 550px;
+                margin-top: -340px;
+                
+            }
+            
+            #blue3 {
+                background-color: blue;
+                height: 80px;
+                
+            }
+        </style>
+        
+    </head>
+    
+    <body>
+        <div id="container">
+            
+            <div id="blue1"></div>
+                <div class="yellow1"></div>
+                <div class="yellow2"></div>
+            <div id="green"></div>
+            <div id="red">
+                <div></div>
+                    <div class="yellow3"></div>
+                    <div class="yellow4"></div>
+                    <div class="yellow5"></div>
+                    <div class="yellow6"></div>
+                
+            </div>
+            
+            <div id="blue2">
+                <div></div>
+                    <div class="yellow8"></div>
+                    <div class="yellow9"></div>
+                    <div class="yellow10"></div>
+                    <div class="yellow11"></div>
+                    <div class="yellow12"></div>
+                    <div class="yellow13"></div>
+                    <div class="yellow14"></div>
+                    <div class="yellow15"></div>
+                    <div class="yellow16"></div>
+                    <div class="yellow17"></div>
+                    <div class="yellow18"></div>
+                    <div class="yellow19"></div>
+                    <div class="yellow20"></div>
+            
+            </div>
+            
+            <div id="green2">
+                <div></div>
+                    <div class="yellow21"></div>
+                    <div class="yellow22"></div>
+                    <div class="yellow23"></div>
+                    <div class="yellow24"></div>
+            
+            </div>
+            
+            <div id="red2">
+                <div></div>
+                    <div class="yellow25"></div>
+                    <div class="yellow26"></div>
+                    <div class="yellow27"></div>
+            
+            </div>
+            
+            <div id="blue3"></div>
+            
+        </div>    
+    </body>
+
+</html>

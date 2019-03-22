@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>layout 3</title>
+        <style>
+            * {
+                outline: 1px solid black;
+            }
+            
+            body {
+                margin: 0;
+            }
+            
+            #container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                margin:auto;
+                max-width: 800px;
+            }
+            
+            .blue {
+                background-color: blue;
+                height: 200px;
+                
+            }
+            
+            #green {
+                background-color: lime;
+                height: 200px;
+                width: 800px;
+                grid-column: 1/4;
+            }
+            
+            #red {
+                background-color: red;
+                height: 460px;
+                grid-column: 1/4;
+            }
+            
+            .yellow1 {
+                margin-top: 50px;
+                background-color: yellow;
+                width: 130px;
+                height: 150px;
+                margin-left: 50px;
+                
+            }
+            
+            .yellow2 {
+                margin-top: -149px;
+                background-color: yellow;
+                width: 130px;
+                height: 150px;
+                margin-left: 230px;
+            }
+            
+            .yellow3 {
+                margin-top: -149px;
+                background-color: yellow;
+                width: 130px;
+                height: 150px;
+                margin-left: 440px;
+            }
+            
+            .yellow4 {
+                margin-top: -149px;
+                background-color: yellow;
+                width: 130px;
+                height: 150px;
+                margin-left: 620px;
+            }
+            
+            .yellow5{
+                margin-top: 60px;
+                background-color: yellow;
+                width: 310px;
+                height: 150px;
+                margin-left: 50px;
+            }
+            
+            .yellow6 {
+                margin-top: -149px;
+                background-color: yellow;
+                width: 310px;
+                height: 150px;
+                margin-left: 440px;
+            }
+        </style>
+        
+    </head>
+    
+    <body>
+        <div id="container">
+            <div class="blue"></div>
+            <div class="blue"></div>
+            <div id="green"></div>
+            <div id="red">
+                <div></div>
+                    <div class="yellow1"></div>
+                    <div class="yellow2"></div>
+                    <div class="yellow3"></div>
+                    <div class="yellow4"></div>
+                    <div class="yellow5"></div>
+                    <div class="yellow6"></div>
+                
+            </div>
+        </div>    
+    </body>
+
+</html>
